@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>360 Grad Fotoviewer mit AR Support</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene embedded arjs="debugUIEnabled:false;">
+    <a-assets>
+      <img id="panorama" src="https://prod-f3540d2dd604eff.wdckeystone.com/6b2072d2-d4f9-4896-b903-34e164343fc9/sdk/v2/files/uxleparfe3yny3gdfc3g76cg/content?download=true&access_token=eyJraWQiOiJNOHNrM1VSdnZHMnhKZ3FkZDdYdGhWZnhyQVptdmVvMyIsImFsZyI6IlJTMjU2In0.eyJqdGkiOiJKV1QiLCJhdWQiOiJrZXlzdG9uZSIsImlzcyI6Im0ybS10b2tlbi1zZXJ2aWNlIiwic3ViIjoicHVibGljX3NoYXJlIiwic2NvcGVzIjoibmFzX3JlYWRfb25seSBuYXNfcmVhZF93cml0ZSIsImN1c3RvbUNsYWltcyI6eyJhdXRoX2lkIjoiODUxMzg2NGEtMTYyYi00NDc3LTljMTEtOGMwNjgxMWQ1ZGFhIn0sImV4cCI6MTY3OTcxMTMxMX0.eFUjnUMPwK79wrQUnudJkCG9uAIvxgTqpYGCsODTkonKT3Z--myk91RZEtI1Ogsc_VWFZFE1vx_HcxFhh0op6jJIG4lKQPPckVirwX1kQzT42QayoqvZbCIbmiaYDxlqjzTGefORxh6QBnPpuzteTAiXfA9WY6SI7ap_fwF0QYRR5twU6LIUcb7I0JUR3ZKGEY6fCUe6hGH3dEvsOs3OsZLVjPzR1t6RmlsMAEWmJGUxaynvr-qmWxO3cwAZ4t81QkNCu3-5sw12G9DqEPnWGnnuHjaNjzaOWdo18VSlzqddBw63bvkNboy2UE6ooJF2U1-ds21qqeisd3DRyn743w">
+    </a-assets>
+    <a-sky src="#panorama" rotation="0 -90 0"></a-sky>
+  </a-scene>
+</body>
+</html>
